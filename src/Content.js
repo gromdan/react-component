@@ -14,7 +14,7 @@ export default class Content extends React.Component {
 		const targetBound = targetRef.current.getBoundingClientRect();
 		const contentBound = contentRef.current.getBoundingClientRect();
 
-		let arrowBound = { width: 0, height: 0 };
+		let arrowBound = { width: 1, height: 1 };
 		if (arrow) {
 			arrowBound = arrowRef.current.getBoundingClientRect();
 		}
