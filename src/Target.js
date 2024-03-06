@@ -20,7 +20,6 @@ const Target = ({ open, zIndex, children, action, targetRef, setOpen, preventDef
 		action === "click"
 			? {
 					onClick: onClick,
-					onTouchEnd: onClick,
 			  }
 			: action === "hover"
 			? {
