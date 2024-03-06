@@ -21,7 +21,7 @@ export default class Popover extends React.Component {
 		const {
 			placement = "auto",
 			arrow = true,
-			action = "action",
+			action = "hover",
 			zIndex = DEFAULT_ZINDEX,
 			preventDefault,
 			stopPropagation,
