@@ -3,8 +3,8 @@
 	"description": "A smart popover component with animation support for ReactJS",
 	"version": "6.1.1",
 	"main": "build/index.umd.js",
-	"repository": "https://github.com/vaheqelyan/react-awesome-popover.git",
-	"author": "vaheqelyan <vahe.araqelyan.2013@hotmail.com>",
+	"repository": "https://github.com/poxii/react-component.git",
+	"author": "poxii2001@gmail.com>",
 	"license": "MIT",
 	"keywords": [
 		"popover",
