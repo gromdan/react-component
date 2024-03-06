@@ -37,7 +37,7 @@ export default class Popover extends React.Component {
 		const [target, content] = children;
 
 		return (
-			<div style={{ ...{ position: "relative" }, ...style }} {...rest}>
+			<div style={{ ...{ position: "absolute" }, ...style }} {...rest}>
 				<Target
 					preventDefault={preventDefault}
 					stopPropagation={stopPropagation}
